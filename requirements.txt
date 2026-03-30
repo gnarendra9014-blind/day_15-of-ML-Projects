@@ -1,0 +1,13 @@
+cd "C:\Users\nanin\OneDrive\Desktop"
+mkdir day15-self-healing-pipeline
+cd day15-self-healing-pipeline
+python -m venv venv
+venv\Scripts\activate
+pip install groq python-dotenv pandas
+New-Item app.py
+New-Item pipeline.py
+New-Item healer.py
+New-Item database.py
+New-Item requirements.txt
+New-Item .env
+code .
